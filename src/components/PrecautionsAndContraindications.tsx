@@ -94,7 +94,7 @@ function PrecautionsAndContraindications() {
             </div>
 
             {/* Список пунктов мер предосторожности */}
-            <div className="mt-0 md:mt-10 md:mt-12 pl-4 pr-0 md:px-10 w-full flex flex-col items-stretch justify-start md:max-w-[82%]">
+            <div className="mt-0 md:mt-10 md:mt-12 pr-0 md:px-10 w-full flex flex-col items-stretch justify-start md:max-w-[82%]">
               {precautions.map((item, index) => (
                 <div key={index} className={index > 0 ? "mt-6 md:mt-12" : ""}>
                   <IconListItem
